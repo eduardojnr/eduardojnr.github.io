@@ -3,37 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>&lt;/eduardojnr&gt</title>
     <meta name="description" content="personal website">
     <meta name="keywords" content="dev, development, developer, data, data analyst">
     <link rel="stylesheet" href="landing-page.css">
 </head>
 <body>
-    <section class="left-section">
-        <img id="personal-photo" src="images/personal-photo.png">
-        <h1 id="name">Eduardo Pereira</h1>
-        <p id="occupation">Data Analyst (99%)<br>
-        Web Developer (1%)</p>
-        <div id="div-contact-me">
-            <a id="contact-me" href="#">Contact me (100%)</a>
-        </div>
-        <div id="social-media"> 
-            <a href="#"><img src="images/linkedin-logo.png"></a>
-            <a href="#"><img src="images/github-logo.png"></a>
-        </div>
-    </section>
-
-    <section class="right-section">
-        <nav class="navbar">
-            <div id="div-navbar">
-                <a id="home-button" href="landing-page.html">Home</a>
+    <div class="main">
+        <header class="left-header">
+            <div class="profile">
+                <img id="personal-photo" src="images/personal-photo.png">
+                <h1 id="name">&lt;/eduardojnr&gt;</h1>
+                <p id="occupation">Data Analyst (99%)<br>
+                Web Developer (1%)</p>
             </div>
-        </nav>
-        <div id="option">Choose what you want to see!</div>
-        <div id="div-options">
-            <a class="data-analyst-button" href="#">Data Analyst</a>
-            <a class="web-developer-button" href="#">Web Developer</a>
-        </div>
-    </section>
+            <div class="contact-me">
+                <a id="email" href="https://mail.google.com/mail/?view=cm&fs=1&to=eduardojnr00@gmail.com" target="_blank"><img class="logo-images" src="images/gmail-logo.png"></a>
+                <a id="linkedin" href="https://www.linkedin.com/in/eduardojnr/" target="_blank"><img class="logo-images" src="images/linkedin-logo.png"></a>
+                <a id="github" href="https://github.com/eduardojnr" target="_blank"><img class="logo-images" src="images/github-logo.png"></a>
+            </div>
+        </header>
+
+        <header class="right-header">
+            <div class="div-about-me">
+                <h1 id="title-about-me">&lt;/About me&gt;</h1>
+                <p class="text-about-me">Hello, my name is Eduardo. I was born in November 2000, in Brazil, more accurately in Aracaju, city who is the capital of Sergipe state.</p>
+                <p class="text-about-me">I recently concluded undergraduated course in Informational Systems, on Tiradentes University. During this undergraduated period, I had opportunities to internship in 2 places.</p>
+                <p class="text-about-me">The first one was the Public Defensory of Sergipe, for 7 months, where I did activities of support in I.T. to the others colaborators. A great opportunity to practice the comunicattion and the colletive..</p>
+                <p class="text-about-me">The second one was in the holding that owns the university where I studied. I worked doing Data Analysis, using resources such as SQL databases, Python language and libraries, PowerBI for data visualization, etc. I also had tasks more related to Data Engineering, having worked preparing environments and technologies for day-to-day use. To do this, I worked with Google Cloud Platform (we were migrating the services to cloud services), Terraform, Docker, Python, Gitlab CI/CD etc.</p>
+                <p class="text-about-me">Now I'm getting interested and learning about web development, as well as continuing to learn about the data area.</p>
+            <div id="choose">Wich area of my projects do you want to see?</div>
+            <div id="div-options">
+                <a class="data-analyst-button" href="../data-analyst-area/data-analyst-page.html">Data Analysis</a>
+                <a class="web-developer-button" href="../web-developer-area/web-developer-page.html">Web Development</a>
+            </div>
+        </header>
+    </div>
 </body>
 </html>
