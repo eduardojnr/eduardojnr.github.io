@@ -107,3 +107,20 @@ html, body{
     background: white;
     padding: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .main{
+        overflow: hidden;
+    }
+
+    .left-header, .right-header{
+        display: flex;
+        flex-flow: column wrap
+    }
+
+    .div-about-me div#div-options{
+        display: flex;
+        padding: 30px 20px;
+
+    }
+}
