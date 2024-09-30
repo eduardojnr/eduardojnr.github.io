@@ -108,20 +108,46 @@ html, body{
     padding: 20px;
 }
 
-@media only screen and (max-width: 1440px) {
-    .main{
-        overflow-x: auto;
-        overflow-y: hidden;
+@media only screen and (max-width: 1024px) {
+    .main {
+        flex-direction: column;
     }
 
-    .left-header, .right-header{
-        display: flex;
-        flex-flow: column wrap
+    .left-header, .right-header {
+        flex: none;
+        width: 100%;
+        padding: 20px;
     }
 
-    .div-about-me div#div-options{
-        display: flex;
-        padding: 30px 20px;
+    .contact-me {
+        justify-content: center;
+    }
 
+    .div-about-me {
+        padding: 0 20px;
+    }
+
+    .div-about-me div#div-options {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .div-about-me a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .div-about-me h1#title-about-me {
+        font-size: 28px;
+    }
+
+    .div-about-me div#choose {
+        font-size: 18px;
+    }
+
+    .text-about-me {
+        font-size: 16px;
     }
 }
